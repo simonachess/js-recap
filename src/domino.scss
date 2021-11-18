@@ -1,0 +1,35 @@
+body {
+    color: darkred;
+}
+
+.dominos {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    .domino {
+        margin: 11px;
+        border: 2px solid darkslategray;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        font-size: 30px;
+        font-weight: 700;
+        color: darkslategray;
+        .left-side {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50px;
+            width: 68px;
+            border-right: 2px solid darkslategray;
+        }
+        .right-side {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50px;
+            width: 68px;
+        }
+    }
+}
